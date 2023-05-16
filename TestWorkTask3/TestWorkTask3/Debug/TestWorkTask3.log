@@ -1,0 +1,10 @@
+﻿  TestWorkTask3.cpp
+D:\c++TestWork\TestWorkTask3\TestWorkTask3\TestWorkTask3.cpp(64,22): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+D:\c++TestWork\TestWorkTask3\TestWorkTask3\TestWorkTask3.cpp(73,19): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c++TestWork\TestWorkTask3\TestWorkTask3\TestWorkTask3.cpp(80,17): warning C4018: >: несоответствие типов со знаком и без знака
+D:\c++TestWork\TestWorkTask3\TestWorkTask3\TestWorkTask3.cpp(110,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\c++TestWork\TestWorkTask3\TestWorkTask3\TestWorkTask3.cpp(112,21): warning C4018: <: несоответствие типов со знаком и без знака
+  LineSearcher.cpp
+D:\c++TestWork\TestWorkTask3\TestWorkTask3\LineSearcher.cpp(24,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  TestWorkTask3.vcxproj -> D:\c++TestWork\TestWorkTask3\Debug\TestWorkTask3.exe
