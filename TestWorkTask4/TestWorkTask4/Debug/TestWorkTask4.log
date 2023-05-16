@@ -1,0 +1,5 @@
+﻿  TestWorkTask4.cpp
+d:\c++TestWork\TestWorkTask4\TestWorkTask4\TestWorkTask4.cpp(94,19): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+d:\c++TestWork\TestWorkTask4\TestWorkTask4\TestWorkTask4.cpp(110,76): warning C4267: аргумент: преобразование из "size_t" в "unsigned short"; возможна потеря данных
+d:\c++TestWork\TestWorkTask4\TestWorkTask4\TestWorkTask4.cpp(111,75): warning C4267: аргумент: преобразование из "size_t" в "unsigned short"; возможна потеря данных
+  TestWorkTask4.vcxproj -> D:\c++TestWork\TestWorkTask4\Debug\TestWorkTask4.exe
