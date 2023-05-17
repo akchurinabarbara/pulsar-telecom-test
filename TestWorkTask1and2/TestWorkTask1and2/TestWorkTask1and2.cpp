@@ -16,6 +16,7 @@ int main()
     std::cout << "method 3: " << weight3(x) << "\n";
     std::cout << "method 4: " << weight4(x) << "\n";
     std::cout << "method 5: " << weight5(x) << "\n";
+    std::cout << "method 6: " << weight6(x) << "\n";
 
     std::cout << "\nTask 2\n";
     std::cout << "method 1: " << parity1(x) << "\n";

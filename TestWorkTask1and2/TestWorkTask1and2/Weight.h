@@ -17,3 +17,6 @@ int weight4(unsigned x);
 
 //Способ 5 (Сумма всех цифр в двоичном числе)
 int weight5(unsigned x);
+
+//Способ 6 (Сдвиг вправо и маска с суммированием единиц)
+int weight6(unsigned x);

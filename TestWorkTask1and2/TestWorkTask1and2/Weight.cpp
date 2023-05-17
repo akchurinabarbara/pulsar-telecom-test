@@ -79,3 +79,18 @@ int weight5(unsigned x)
 
 	return count;
 }
+
+//Способ 6 (Сдвиг вправо и маска с суммированием единиц)
+int weight6(unsigned x)
+{
+	unsigned count = 0;
+	unsigned value = x;
+
+	while (value) 
+	{		
+		count += value & 1;		
+		value = value >> 1;
+	}
+
+	return count;
+}
