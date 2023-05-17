@@ -1,21 +1,21 @@
-#pragma once
+п»ї#pragma once
 #include <string>
 #include <list>
 #include <vector>
 #include <iostream>
 #include <fstream>
 
-//Класс для поиска слов в файле
+//РљР»Р°СЃСЃ РґР»СЏ РїРѕРёСЃРєР° СЃР»РѕРІ РІ С„Р°Р№Р»Рµ
 class LineSearcher
 {
 private:
-	std::vector <std::string> _stringLines; //Список слов
-	std::string _filePath; //Путь к файлу
+	std::vector <std::string> _stringLines; //РЎРїРёСЃРѕРє СЃР»РѕРІ
+	std::string _filePath; //РџСѓС‚СЊ Рє С„Р°Р№Р»Сѓ
 
 public:
-	//Конструктор
+	//РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 	LineSearcher(std::vector <std::string> stringLines, std::string filePath);
-	//Поиск и возвращение результатов - количества совпадений
+	//РџРѕРёСЃРє Рё РІРѕР·РІСЂР°С‰РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ - РєРѕР»РёС‡РµСЃС‚РІР° СЃРѕРІРїР°РґРµРЅРёР№
 	std::vector<int> Search();
 };
 

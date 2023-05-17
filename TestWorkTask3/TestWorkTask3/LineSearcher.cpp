@@ -1,24 +1,24 @@
-#include "LineSearcher.h"
+п»ї#include "LineSearcher.h"
 
 
-//Конструктор
+//РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 LineSearcher::LineSearcher(std::vector<std::string> stringLines, std::string filePath)
 {
 	_stringLines = stringLines;
 	_filePath = filePath;
 }
 
-//Поиск и возвращение результатов - количества совпадений
+//РџРѕРёСЃРє Рё РІРѕР·РІСЂР°С‰РµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ - РєРѕР»РёС‡РµСЃС‚РІР° СЃРѕРІРїР°РґРµРЅРёР№
 std::vector<int> LineSearcher::Search()
 {
-	//вектор результатов по каждой строке
+	//РІРµРєС‚РѕСЂ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ РїРѕ РєР°Р¶РґРѕР№ СЃС‚СЂРѕРєРµ
 	std::vector<int> result;
 	result.resize(_stringLines.size());
 
 	std::ifstream file(_filePath);
 	std::string tmp;
 
-	//Получение строки из файла и сравнение ее с писком искомых слов
+	//РџРѕР»СѓС‡РµРЅРёРµ СЃС‚СЂРѕРєРё РёР· С„Р°Р№Р»Р° Рё СЃСЂР°РІРЅРµРЅРёРµ РµРµ СЃ РїРёСЃРєРѕРј РёСЃРєРѕРјС‹С… СЃР»РѕРІ
 	while(getline(file, tmp))
 	{
 		for (int i = 0; i < _stringLines.size(); i++)
